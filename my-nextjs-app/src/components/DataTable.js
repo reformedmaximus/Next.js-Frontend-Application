@@ -1,6 +1,7 @@
 'use client'
 import axios from 'axios';
 import { useEffect, useState } from 'react';
+import Graph from './Graph';
 
 const DataTable = () => {
     const [data, setData] = useState([]);
@@ -89,12 +90,7 @@ const DataTable = () => {
                             <td>{post.body}</td>
                         </tr>
                     ))}
-
-
                 </tbody>
-
-
-
             </table>
             <div>
                 {pageNumbers.map(number => (
@@ -103,6 +99,7 @@ const DataTable = () => {
                     </button>
                 ))}
             </div>
+            <Graph data={filteredData}></Graph>
 
         </div>
 
