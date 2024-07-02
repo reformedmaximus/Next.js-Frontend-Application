@@ -10,20 +10,14 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --tw-gradient-from: #6B21A8; /* Purple-800 */
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(219, 39, 119, 0)); /* Pink-600 */
+    --tw-gradient-to: #EF4444; /* Red-500 */
   }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply bg-gradient-to-r from-purple-800 via-pink-600 to-red-500 text-white;
 }
 
 @layer utilities {

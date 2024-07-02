@@ -21,10 +21,14 @@ const Graph = ({ data }) => {
         plugins: {
             legend: {
                 position: 'top',
+                labels: {
+                    color: '#fff',
+                },
             },
             title: {
                 display: true,
                 text: 'Post Body Length Distribution',
+                color: '#fff', 
             },
         },
     };
