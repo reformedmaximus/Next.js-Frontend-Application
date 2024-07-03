@@ -1,5 +1,7 @@
 # Next.js-Frontend-Application
-this project is a frontend application developed with Next.js. It fetches data from a sample API (JSONPlaceholder) and displays it in a paginated table with search and sorting functionalities. Additionally, it includes a graph to visualize data distribution.
+This project is a frontend application developed with Next.js. It fetches data from a sample API (JSONPlaceholder) and displays it in a paginated table with search and sorting functionalities. Additionally, it includes a graph to visualize data distribution.
+
+![Application Showcase](https://github.com/reformedmaximus/Next.js-Frontend-Application/blob/620b613e4726cd9cea2ccac8ff4a725dab7f78e4/Next.js%20app%20showcase.gif?raw=true)
 
 ## Project Structure
 
